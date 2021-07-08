@@ -47,6 +47,7 @@ body {
   font-weight: 400;
   color: hsla(0, 0%, 100%, 0.75);
   margin-bottom: 6%;
+  line-height: 150%;
 }
 
 .status {
