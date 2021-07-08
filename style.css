@@ -1,0 +1,84 @@
+* {
+  margin: 0; padding: 0; box-sizing: border-box;
+}
+
+/*--- MOBILE FIRST 375px ---*/
+body {
+  background-color: hsl(233, 47%, 7%);
+  font-size: 15px;
+  color: hsla(0, 0%, 100%, 0.75);
+}
+
+.content {
+  background-color: hsl(244, 38%, 16%);
+  width: 320px;
+  height: auto;
+  margin: 15% auto;
+  border-radius: 5px;
+}
+
+.image {
+  background-color: hsl(277, 64%, 61%);
+  border-radius: 5px 5px 0 0;
+  height: 235px;
+}
+
+.image img {
+  border-radius: 5px 5px 0 0;
+  filter: opacity(0.6) brightness(0.6) contrast(1.3);
+}
+
+.text {
+  padding: 8%;
+  font-family: 'Inter', sans-serif;
+}
+
+.text h1 {
+  text-align: center;
+  font-size: 1.8em;
+  font-weight: 700;
+  color: hsla(0, 0%, 100%);
+  margin-bottom: 8%;
+}
+
+.text p {
+  text-align: center;
+  font-size: 1em;
+  font-weight: 400;
+  color: hsla(0, 0%, 100%, 0.75);
+  margin-bottom: 6%;
+}
+
+.status {
+  padding: 0 8%;
+  font-family: 'Inter', sans-serif;
+  text-align: center;
+  padding-bottom: 8%;
+}
+
+.status h1 {
+  font-size: 1.7em;
+  font-weight: 700;
+  color: hsla(0, 0%, 100%);
+  margin-bottom: 2%;
+}
+
+.status p {
+  font-size: 0.9em;
+  font-weight: 400;
+  color: hsla(0, 0%, 100%, 0.6);
+  margin-bottom: 10%;
+}
+
+.attribution {
+  position: relative;
+  bottom: 10px;
+  padding: 0 5%;
+  text-align: center;
+}
+.attribution a:link, a:visited {
+  text-decoration: none;
+  color: hsl(277, 64%, 61%);
+}
+
+
